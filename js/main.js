@@ -7,7 +7,7 @@ $(document).ready(function(){
     $("body").on('wheel', function(event) {
         event.preventDefault();
         var boatPosition = parseInt($(".boat").css("left"));
-        var step = 30;
+        var step = 75;
         newPosition = 0;
 
         // Parallax effect
